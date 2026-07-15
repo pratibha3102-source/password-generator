@@ -9,3 +9,4 @@ chars= string.ascii_letters + string.digits + "@$#&!^&*"
 if st.button("Generate Passwordd"):
     password= "".join(random.choice(chars) for _ in range (length))
     st.code(password)
+st.text_area("generated pass", password, height=150)
