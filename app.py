@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import string
 
-st.title("password generator")
+st.title("password best generator")
 
 length = st.slider("password length", 8, 32, 16)
 chars= string.ascii_letters + string.digits + "@$#&!^&*"
